@@ -1,0 +1,325 @@
+
+URL : http://localhost:8080/checkpoint
+
+-- Create CHECKPOINT #1
+
+
+{
+   "name":"Part 1: Define Your Project",
+   "projectId":"8dd5f315-9788-4d00-87bb-10eed9eff566"
+}
+
+
+-- Response CHECKPOINT #1
+
+
+{
+    "id": "66ddc054-c038-41be-a51e-8e92770c54ce",
+    "name": "Part 1: Define Your Project",
+    "projectId": "8dd5f315-9788-4d00-87bb-10eed9eff566",
+    "complPercentage": 0,
+    "tasks": []
+}
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+URL : http://localhost:8080/task
+
+
+
+-- Create CHECKPOINT #1 - Tasks
+
+
+-- Tasks 1
+
+{
+         "text":"Approve the business case",
+         "complPercentage":20,
+         "checkpointId": "66ddc054-c038-41be-a51e-8e92770c54ce"
+}
+
+
+
+-- Tasks 2
+
+{
+         "text":"Identify Project Objectives",
+         "complPercentage":20,
+         "checkpointId": "66ddc054-c038-41be-a51e-8e92770c54ce"
+}
+
+
+
+-- Tasks 3
+
+{
+         "text":"Define Project Scope",
+         "complPercentage":20,
+         "checkpointId": "66ddc054-c038-41be-a51e-8e92770c54ce"
+}
+
+
+
+-- Tasks 4
+
+{
+         "text":"Create Solution Design",
+         "complPercentage":20,
+         "checkpointId": "66ddc054-c038-41be-a51e-8e92770c54ce"
+}
+
+
+
+-- Tasks 5
+
+{
+         "text":"Approve the Budget",
+         "complPercentage":20,
+         "checkpointId": "66ddc054-c038-41be-a51e-8e92770c54ce"
+}
+
+
+-- Tasks 6
+
+
+{
+         "text":"Identify Initial Project Risks",
+         "complPercentage":20,
+         "checkpointId": "66ddc054-c038-41be-a51e-8e92770c54ce"
+}
+
+
+
+-- Tasks 7
+
+{
+         "text":"Produce List of Deliverables",
+         "complPercentage":20,
+         "checkpointId": "66ddc054-c038-41be-a51e-8e92770c54ce"
+}
+
+
+
+
+~~~----------------------------------------------------------~~~
+
+
+URL : http://localhost:8080/checkpoint
+
+
+-- Create CHECKPOINT #2
+
+
+
+
+{
+   "name":"Part 2: Build Your Team",
+   "projectId":"8dd5f315-9788-4d00-87bb-10eed9eff566"
+}
+
+
+
+-- Response CHECKPOINT #2
+
+
+{
+    "id": "ba966c01-ac72-4127-a72a-b62ac8bdb5da",
+    "name": "Part 2: Build Your Team",
+    "projectId": "8dd5f315-9788-4d00-87bb-10eed9eff566",
+    "complPercentage": 0,
+    "tasks": []
+}
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+URL : http://localhost:8080/task
+
+
+-- Create CHECKPOINT #2 - Tasks
+
+
+
+-- Tasks 1
+
+{
+         "text":"Appoint Project Sponsor",
+         "complPercentage":50,
+         "checkpointId": "ba966c01-ac72-4127-a72a-b62ac8bdb5da"
+}
+
+
+
+-- Tasks 2
+
+{
+         "text":"Appoint Team Members",
+         "complPercentage":20,
+         "checkpointId": "ba966c01-ac72-4127-a72a-b62ac8bdb5da"
+}
+
+
+
+-- Tasks 3
+
+{
+         "text":"Identify Other Stakeholders",
+         "complPercentage":60,
+         "checkpointId": "ba966c01-ac72-4127-a72a-b62ac8bdb5da"
+}
+
+
+
+-- Tasks 4
+
+{
+         "text":"Identify Integration Partners",
+         "complPercentage":20,
+         "checkpointId": "ba966c01-ac72-4127-a72a-b62ac8bdb5da"
+}
+
+
+
+-- Tasks 5
+
+{
+         "text":"Define Roles and Responsibilities",
+         "complPercentage":60,
+         "checkpointId": "ba966c01-ac72-4127-a72a-b62ac8bdb5da"
+}
+
+
+
+-- Tasks 6
+
+{
+         "text":"Produce Communications Plan",
+         "complPercentage":20,
+         "checkpointId": "ba966c01-ac72-4127-a72a-b62ac8bdb5da"
+}
+
+
+
+-- Tasks 7
+
+{
+         "text":"Arrange First Team Meeting",
+         "complPercentage":20,
+         "checkpointId": "ba966c01-ac72-4127-a72a-b62ac8bdb5da"
+}
+
+
+
+-- Tasks 8
+
+{
+         "text":"Create High-Level Design",
+         "complPercentage":20,
+         "checkpointId": "ba966c01-ac72-4127-a72a-b62ac8bdb5da"
+}
+
+
+
+
+
+~~~----------------------------------------------------------~~~
+
+
+URL : http://localhost:8080/checkpoint
+
+
+-- Create CHECKPOINT #3
+
+
+
+{
+   "name":"Part 3: Set Up Your Tools",
+   "projectId":"8dd5f315-9788-4d00-87bb-10eed9eff566"
+}
+
+
+
+-- Response CHECKPOINT #3
+
+
+{
+    "id": "f6a3b703-a69e-4228-a384-941c9e6e2ef4",
+    "name": "Part 3: Set Up Your Tools",
+    "projectId": "8dd5f315-9788-4d00-87bb-10eed9eff566",
+    "complPercentage": 0,
+    "tasks": []
+}
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+URL : http://localhost:8080/task
+
+
+-- Create CHECKPOINT #3 - Tasks
+
+
+
+-- Tasks 1
+
+{
+         "text":"Select Project Management Software",
+         "complPercentage":20,
+         "checkpointId": "f6a3b703-a69e-4228-a384-941c9e6e2ef4"
+}
+
+
+
+-- Tasks 2
+
+{
+         "text":"Set Up User Accounts",
+         "complPercentage":20,
+         "checkpointId": "f6a3b703-a69e-4228-a384-941c9e6e2ef4"
+}
+
+
+
+-- Tasks 3
+
+{
+         "text":"Set Up Project Filing System",
+         "complPercentage":20,
+         "checkpointId": "f6a3b703-a69e-4228-a384-941c9e6e2ef4"
+}
+
+
+
+-- Tasks 4
+
+{
+         "text":"Create Task List",
+         "complPercentage":20,
+         "checkpointId": "f6a3b703-a69e-4228-a384-941c9e6e2ef4"
+}
+
+
+
+-- Tasks 5
+
+{
+         "text":"Create Project Schedule",
+         "complPercentage":20,
+         "checkpointId": "f6a3b703-a69e-4228-a384-941c9e6e2ef4"
+}
+
+
+
+
+
+
+
+~~~----------------------------------------------------------~~~
+
