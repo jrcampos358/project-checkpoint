@@ -27,7 +27,7 @@ Simple UI to display project checkpoints and tasks.
 
 ## Prerequisites
 
-You should have mvn (maven), node and npm executables in the path.
+You should have Java 11, mvn (maven), node and npm executables in the path.
 
 You also need Postman/SoapUI to invoke the Rest API to create DB entries.
 
@@ -43,8 +43,10 @@ All other tools should be listed in devDependencies section of package.json so t
 
 1. Go to your 1st open terminal (assuming you are in folder 'project-checkpoint')
 2. Move to 'micro' directory: `cd micro`
-3. Run `./mvnw spring-boot:run` to start microservice
 
+Note: This micro service run on port 8080
+
+3. Run `./mvnw spring-boot:run` to start microservice
 
 ## Add entries to the inmemory DB
 
@@ -152,6 +154,8 @@ The value of the 'id' from the above response will be used to create the 'checkp
 3. Run `npm install` for installing dependencies
 4. Run `npm start` to start web app
 
+Note: This webapp run on port 3000
+
 This will open a browser (preferably Chrome) and the list of 'project checkpoints and their tasks will be displayed.' 
 
 
@@ -166,9 +170,9 @@ This will open a browser (preferably Chrome) and the list of 'project checkpoint
 2. Identify Project Objectives
 3. Define Project Scope
 4. Create Solution Design
-4. Approve the Budget
-5. Identify Initial Project Risks
-6. Produce List of Deliverables 
+5. Approve the Budget
+6. Identify Initial Project Risks
+7. Produce List of Deliverables 
 
 ### Part 2: Build Your Team
 
